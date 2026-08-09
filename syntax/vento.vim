@@ -12,7 +12,7 @@ unlet! b:current_syntax
 
 syntax region ventoTag start="{{" end="}}" contains=ventoKeyword,ventoString,ventoNumber,ventoOperator,ventoPipe
 
-syntax keyword ventoKeyword if else elif for in set include layout echo export async contained
+syntax keyword ventoKeyword if it else elif for in set include layout echo export async contained
 syntax keyword ventoBoolean true false contained
 
 syntax match ventoString /"[^"]*"|'[^']*'/ contained
